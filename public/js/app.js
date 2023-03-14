@@ -1,5 +1,4 @@
 console.log('Client-side js is loaded')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const url = 'http://localhost:3000/weather?address='
