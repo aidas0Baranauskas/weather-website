@@ -1,0 +1,7 @@
+heroku login
+nodemon src/app.js -e js,hbs
+npm i
+
+git
+git status
+git add
