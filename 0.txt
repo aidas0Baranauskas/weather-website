@@ -7,3 +7,6 @@ git status
 git add file
 git add .
 git commit -m "init commit"
+
+git push heroku main
+heroku logs
