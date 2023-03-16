@@ -1,5 +1,5 @@
-// import request from 'request'
-import request from 'app/'
+import request from 'request'
+import fetch from 'node-fetch'
 
 const geocode = (address, callback) => {
     const url = 'http://api.weatherstack.com/current?access_key=38a75f91f90f3de8ff6be6bdd51a040b&query=' +
